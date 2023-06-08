@@ -31,9 +31,14 @@ options:
   INVERTOR_IP_3:  ""
   NUMBATTERIES_3:  1
   HADEVICEPREFIX_3: "GivTCP3"
+  MQTT_OUTPUT: True
+  MQTT_ADDRESS: "core-mosquitto"
+  MQTT_USERNAME: ""
+  MQTT_PASSWORD: ""
   MQTT_TOPIC: ""
   MQTT_TOPIC_2: ""
   MQTT_TOPIC_3: ""
+  MQTT_PORT: 1883
   LOG_LEVEL: "Info"
   PRINT_RAW: True
   SELF_RUN: True  #remove?
@@ -79,6 +84,11 @@ schema:
   INVERTOR_IP_3:  "str?"
   NUMBATTERIES_3:  "int?"
   HADEVICEPREFIX_3: "str?"
+  MQTT_OUTPUT: bool
+  MQTT_ADDRESS: "str?"
+  MQTT_USERNAME: "str?"
+  MQTT_PASSWORD: "str?"
+  MQTT_PORT: "int?"
   MQTT_TOPIC: "str?"
   MQTT_TOPIC_2: "str?"
   MQTT_TOPIC_3: "str?"
