@@ -1,6 +1,6 @@
 name:  "GivTCP-DEV"
 description:  "TCP Modbus connection to MQTT/JSON for Givenergy Battery/PV Invertors"
-version:  "2.1.33"
+version:  "2.1.34"
 image: britkat/giv_tcp-dev
 slug:  "givtcp-dev"
 homeassistant_api: true
@@ -43,6 +43,7 @@ options:
   PRINT_RAW: True
   SELF_RUN: True  #remove?
   SELF_RUN_LOOP_TIMER: 5
+  QUEUE_RETRIES: 2
   DYNAMICTARIFF: False
   DAYRATE: "0.155"
   NIGHTRATE: "0.055"
@@ -96,6 +97,7 @@ schema:
   PRINT_RAW: bool
   SELF_RUN: bool
   SELF_RUN_LOOP_TIMER: int
+  QUEUE_RETRIES: int
   DYNAMICTARIFF: bool
   DAYRATE: "str?"
   NIGHTRATE: "str?"
