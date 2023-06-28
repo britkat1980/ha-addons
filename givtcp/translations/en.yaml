@@ -40,22 +40,22 @@ configuration:
     name: Inverter 3 - Home Assistant Entity Prefix
     description: >-
       A unique prefix applied to all of inverter 3's entities in Home Assistant.
-#  MQTT_OUTPUT:
-#    name: Enable MQTT Output
-#    description: >-
-#      Turn on to enable MQTT output. If you're not sure what this means, just turn it on.
-#  MQTT_ADDRESS:
-#    name: MQTT Broker Hostname or IP Address
-#    description: >-
-#      The hostname or IP address of your MQTT Broker. If you're using the Home Assistant Mosquitto Broker add-on, leave this as default.
-#  MQTT_USERNAME:
-#    name: MQTT Broker Username
-#    description: >-
-#      The username for authenticating against your MQTT Broker. It's best practise to create a dedicated user for MQTT. If using Home Assistant, navigate to Settings, People, choose the Users tab at the top, and create a new user that is an Administrator, and can only log on from the local network.
-#  MQTT_PASSWORD:
-#    name: MQTT Broker Password
-#    description: >-
-#      The password associated with the user account used for authenticating against your MQTT Broker.
+  MQTT_OUTPUT:
+    name: Enable MQTT Output
+    description: >-
+      Turn on to enable MQTT output. If you're not sure what this means, just turn it on.
+  MQTT_ADDRESS:
+    name: MQTT Broker Hostname or IP Address
+    description: >-
+      The hostname or IP address of your MQTT Broker. If you're using the Home Assistant Mosquitto Broker add-on, leave this as default.
+  MQTT_USERNAME:
+    name: MQTT Broker Username
+    description: >-
+      The username for authenticating against your MQTT Broker. It's best practise to create a dedicated user for MQTT. If using Home Assistant, navigate to Settings, People, choose the Users tab at the top, and create a new user that is an Administrator, and can only log on from the local network.
+  MQTT_PASSWORD:
+    name: MQTT Broker Password
+    description: >-
+      The password associated with the user account used for authenticating against your MQTT Broker.
   MQTT_TOPIC:
     name: MQTT Topic (Inverter 1)
     description: >-
@@ -68,10 +68,10 @@ configuration:
     name: MQTT Topic (Inverter 3)
     description: >-
       (Optional) The MQTT topic used when publishing events for Inverter 3
-#  MQTT_PORT:
-#    name: MQTT Port
-#    description: >-
-#      The TCP port used to communicate with your MQTT Broker. Default is 1883, if you're using the default Home Assistant Mosquitto add-on settings then you won't need to change this.
+  MQTT_PORT:
+    name: MQTT Port
+    description: >-
+      The TCP port used to communicate with your MQTT Broker. Default is 1883, if you're using the default Home Assistant Mosquitto add-on settings then you won't need to change this.
   LOG_LEVEL:
     name: Log Level
     description: >-
@@ -88,6 +88,10 @@ configuration:
     name: Self Run Loop Timer
     description: >-
       How often should GivTCP connect to the inverter to check for data when self run is enabled? Default is 5, measured in seconds.
+    QUEUE_RETRIES:
+    name: Queue Retries
+    description: >-
+      How many times should GivTCP write to the inverter to ensure the posted value is sucessfully set.  
   HA_AUTO_D:
     name: Home Assistant Auto Discovery
     description: >-
