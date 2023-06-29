@@ -1,8 +1,8 @@
 name:  "GivTCP-DEV"
 description:  "TCP Modbus connection to MQTT/JSON for Givenergy Battery/PV Invertors"
-version:  "2.2.5"
+version:  "2.2.6"
 image: britkat/giv_tcp-dev
-slug:  "givtcp-dev"
+slug:  "givtcp_dev"
 homeassistant_api: true
 hassio_api: true
 init:  true
@@ -23,13 +23,16 @@ host_network: true
 options:
   NUMINVERTORS: 1
   INVERTOR_IP_1:  ""
+  INVERTOR_AIO_1: False
   NUMBATTERIES_1:  1
   HADEVICEPREFIX: "GivTCP"
   INVERTOR_IP_2:  ""
   NUMBATTERIES_2:  1
+  INVERTOR_AIO_2: False
   HADEVICEPREFIX_2: "GivTCP2"
   INVERTOR_IP_3:  ""
   NUMBATTERIES_3:  1
+  INVERTOR_AIO_3: False
   HADEVICEPREFIX_3: "GivTCP3"
   MQTT_OUTPUT: True
   MQTT_ADDRESS: "core-mosquitto"
@@ -41,9 +44,10 @@ options:
   MQTT_PORT: 1883
   LOG_LEVEL: "Info"
   PRINT_RAW: True
-  SELF_RUN: True  #remove?
-  SELF_RUN_LOOP_TIMER: 5
+  SELF_RUN: True
+  SELF_RUN_LOOP_TIMER: 15
   QUEUE_RETRIES: 2
+  HA_AUTO_D: True
   DYNAMICTARIFF: False
   DAYRATE: "0.155"
   NIGHTRATE: "0.055"
@@ -78,26 +82,30 @@ schema:
   NUMINVERTORS: int
   INVERTOR_IP_1:  str
   NUMBATTERIES_1:  int
+  INVERTOR_AIO_1: bool
   HADEVICEPREFIX: "str?"
   INVERTOR_IP_2:  "str?"
   NUMBATTERIES_2:  "int?"
+  INVERTOR_AIO_2: bool
   HADEVICEPREFIX_2: "str?"
   INVERTOR_IP_3:  "str?"
   NUMBATTERIES_3:  "int?"
+  INVERTOR_AIO_3: bool
   HADEVICEPREFIX_3: "str?"
   MQTT_OUTPUT: bool
-  MQTT_ADDRESS: "str?"
+  MQTT_ADDRESS: str
   MQTT_USERNAME: "str?"
   MQTT_PASSWORD: "str?"
-  MQTT_PORT: "int?"
   MQTT_TOPIC: "str?"
   MQTT_TOPIC_2: "str?"
   MQTT_TOPIC_3: "str?"
+  MQTT_PORT: int
   LOG_LEVEL: str
   PRINT_RAW: bool
   SELF_RUN: bool
   SELF_RUN_LOOP_TIMER: int
   QUEUE_RETRIES: int
+  HA_AUTO_D: bool
   DYNAMICTARIFF: bool
   DAYRATE: "str?"
   NIGHTRATE: "str?"
@@ -128,3 +136,4 @@ schema:
   SOLCASTAPI: "str?"
   SOLCASTSITEID: "str?"
   SOLCASTSITEID2: "str?"
+  LOAD_HIST_WEIGHT: "str?"
