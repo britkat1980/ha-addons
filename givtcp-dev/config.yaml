@@ -39,7 +39,7 @@ options:
   INVERTOR_AIO_3: False
   INVERTOR_AC_3: False
   HADEVICEPREFIX_3: "GivTCP3"
-  MQTT_OUTPUT: True
+  #MQTT_OUTPUT: True
   MQTT_ADDRESS: "core-mosquitto"
   MQTT_USERNAME: ""
   MQTT_PASSWORD: ""
@@ -49,10 +49,10 @@ options:
   MQTT_PORT: 1883
   LOG_LEVEL: "Info"
   PRINT_RAW: True
-  SELF_RUN: True
+  #SELF_RUN: True
   SELF_RUN_LOOP_TIMER: 15
   QUEUE_RETRIES: 2
-  HA_AUTO_D: True
+  #HA_AUTO_D: True
   DYNAMICTARIFF: False
   DAYRATE: "0.155"
   NIGHTRATE: "0.055"
@@ -64,8 +64,8 @@ options:
   INFLUX_TOKEN: ""
   INFLUX_BUCKET: ""
   INFLUX_ORG: ""
-  PYTHONPATH: "/app"  
-  TZ: "Europe/London"
+  #PYTHONPATH: "/app"  
+  #TZ: "Europe/London"
   WEB_DASH: False
   WEB_DASH_PORT: 3000
   HOSTIP: "homeassistant.local"
@@ -101,7 +101,7 @@ schema:
   INVERTOR_AIO_3: bool
   INVERTOR_AC_3: bool
   HADEVICEPREFIX_3: "str?"
-  MQTT_OUTPUT: bool
+  #MQTT_OUTPUT: bool
   MQTT_ADDRESS: str
   MQTT_USERNAME: "str?"
   MQTT_PASSWORD: "str?"
@@ -111,10 +111,10 @@ schema:
   MQTT_PORT: int
   LOG_LEVEL: str
   PRINT_RAW: bool
-  SELF_RUN: bool
+  #SELF_RUN: bool
   SELF_RUN_LOOP_TIMER: int
   QUEUE_RETRIES: int
-  HA_AUTO_D: bool
+  #HA_AUTO_D: bool
   DYNAMICTARIFF: bool
   DAYRATE: "str?"
   NIGHTRATE: "str?"
@@ -126,8 +126,8 @@ schema:
   INFLUX_TOKEN: "str?"
   INFLUX_BUCKET: "str?"
   INFLUX_ORG: "str?"
-  PYTHONPATH: str
-  TZ: str
+  #PYTHONPATH: str
+  #TZ: str
   WEB_DASH: bool
   WEB_DASH_PORT: int
   HOSTIP: str
