@@ -1,6 +1,6 @@
 name:  "GivTCP"
 description:  "TCP Modbus connection to MQTT/JSON for Givenergy Battery/PV Invertors"
-version:  "2.3.2"
+version:  "2.3.3"
 image: britkat/giv_tcp-ma
 slug:  "givtcp"
 homeassistant_api: true
@@ -26,18 +26,18 @@ options:
   NUMINVERTORS: 1
   INVERTOR_IP_1:  ""
   INVERTOR_AIO_1: False
-  INVERTOR_AC_1: False
+  INVERTOR_AC_1: True
   NUMBATTERIES_1:  1
   HADEVICEPREFIX: "GivTCP"
   INVERTOR_IP_2:  ""
   NUMBATTERIES_2:  1
   INVERTOR_AIO_2: False
-  INVERTOR_AC_2: False
+  INVERTOR_AC_2: True
   HADEVICEPREFIX_2: "GivTCP2"
   INVERTOR_IP_3:  ""
   NUMBATTERIES_3:  1
   INVERTOR_AIO_3: False
-  INVERTOR_AC_3: False
+  INVERTOR_AC_3: True
   HADEVICEPREFIX_3: "GivTCP3"
   MQTT_OUTPUT: True
   MQTT_ADDRESS: "core-mosquitto"
