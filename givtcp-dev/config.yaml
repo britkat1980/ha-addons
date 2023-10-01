@@ -1,13 +1,13 @@
 name:  "GivTCP-DEV"
 description:  "TCP Modbus connection to MQTT/JSON for Givenergy Battery/PV Invertors"
-version:  "2.3.36"
+version:  "2.3.37"
 image: britkat/giv_tcp-dev
 slug:  "givtcp-dev"
 homeassistant_api: true
 hassio_api: true
 init:  true
-ingress: true
-ingress_port: 5173
+#ingress: true
+#ingress_port: 5173
 services:
   - "mqtt:want"
 map:
@@ -26,20 +26,20 @@ options:
   NUMINVERTORS: 1
   INVERTOR_IP_1:  ""
   INVERTOR_AIO_1: False
-  INVERTOR_AC_1: False
+  INVERTOR_AC_1: True
   NUMBATTERIES_1:  1
   HADEVICEPREFIX: "GivTCP"
   INVERTOR_IP_2:  ""
   NUMBATTERIES_2:  1
   INVERTOR_AIO_2: False
-  INVERTOR_AC_2: False
+  INVERTOR_AC_2: True
   HADEVICEPREFIX_2: "GivTCP2"
   INVERTOR_IP_3:  ""
   NUMBATTERIES_3:  1
   INVERTOR_AIO_3: False
-  INVERTOR_AC_3: False
+  INVERTOR_AC_3: True
   HADEVICEPREFIX_3: "GivTCP3"
-  #MQTT_OUTPUT: True
+  MQTT_OUTPUT: True
   MQTT_ADDRESS: "core-mosquitto"
   MQTT_USERNAME: ""
   MQTT_PASSWORD: ""
@@ -49,10 +49,10 @@ options:
   MQTT_PORT: 1883
   LOG_LEVEL: "Info"
   PRINT_RAW: True
-  #SELF_RUN: True
+  SELF_RUN: True
   SELF_RUN_LOOP_TIMER: 15
   QUEUE_RETRIES: 2
-  #HA_AUTO_D: True
+  HA_AUTO_D: True
   DYNAMICTARIFF: False
   DAYRATE: "0.155"
   NIGHTRATE: "0.055"
@@ -64,8 +64,8 @@ options:
   INFLUX_TOKEN: ""
   INFLUX_BUCKET: ""
   INFLUX_ORG: ""
-  #PYTHONPATH: "/app"  
-  #TZ: "Europe/London"
+  PYTHONPATH: "/app"  
+  TZ: "Europe/London"
   WEB_DASH: False
   WEB_DASH_PORT: 3000
   HOSTIP: "homeassistant.local"
@@ -84,6 +84,9 @@ options:
   SOLCASTSITEID: ""
   SOLCASTSITEID2: ""
   LOAD_HIST_WEIGHT: "1"
+  EVC_ENABLE: False
+  EVC_IP_ADDRESS: ""
+  EVC_SELF_RUN_TIMER: 5
 schema: 
   NUMINVERTORS: int
   INVERTOR_IP_1:  str
@@ -101,7 +104,7 @@ schema:
   INVERTOR_AIO_3: bool
   INVERTOR_AC_3: bool
   HADEVICEPREFIX_3: "str?"
-  #MQTT_OUTPUT: bool
+  MQTT_OUTPUT: bool
   MQTT_ADDRESS: str
   MQTT_USERNAME: "str?"
   MQTT_PASSWORD: "str?"
@@ -111,10 +114,10 @@ schema:
   MQTT_PORT: int
   LOG_LEVEL: str
   PRINT_RAW: bool
-  #SELF_RUN: bool
+  SELF_RUN: bool
   SELF_RUN_LOOP_TIMER: int
   QUEUE_RETRIES: int
-  #HA_AUTO_D: bool
+  HA_AUTO_D: bool
   DYNAMICTARIFF: bool
   DAYRATE: "str?"
   NIGHTRATE: "str?"
@@ -126,8 +129,8 @@ schema:
   INFLUX_TOKEN: "str?"
   INFLUX_BUCKET: "str?"
   INFLUX_ORG: "str?"
-  #PYTHONPATH: str
-  #TZ: str
+  PYTHONPATH: str
+  TZ: str
   WEB_DASH: bool
   WEB_DASH_PORT: int
   HOSTIP: str
@@ -146,3 +149,6 @@ schema:
   SOLCASTSITEID: "str?"
   SOLCASTSITEID2: "str?"
   LOAD_HIST_WEIGHT: "str?"
+  EVC_ENABLE: bool
+  EVC_IP_ADDRESS: "str?"
+  EVC_SELF_RUN_TIMER: int
