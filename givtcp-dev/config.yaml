@@ -1,6 +1,6 @@
 name:  "GivTCP-DEV"
 description:  "TCP Modbus connection to MQTT/JSON for Givenergy Battery/PV Invertors"
-version:  "2.3.70"
+version:  "2.3.71"
 image: britkat/giv_tcp-dev
 slug:  "givtcp-dev"
 homeassistant_api: true
@@ -43,6 +43,7 @@ options:
   MQTT_ADDRESS: "core-mosquitto"
   MQTT_USERNAME: ""
   MQTT_PASSWORD: ""
+  MQTT_RETAIN: False
   MQTT_TOPIC: ""
   MQTT_TOPIC_2: ""
   MQTT_TOPIC_3: ""
@@ -108,6 +109,7 @@ schema:
   MQTT_ADDRESS: str
   MQTT_USERNAME: "str?"
   MQTT_PASSWORD: "str?"
+  MQTT_RETAIN: bool
   MQTT_TOPIC: "str?"
   MQTT_TOPIC_2: "str?"
   MQTT_TOPIC_3: "str?"
