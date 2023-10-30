@@ -6,7 +6,8 @@ slug:  "givtcp-dev"
 homeassistant_api: true
 hassio_api: true
 init:  true
-ingress: true
+webui: "[PROTO:ssl]://[HOST]:[PORT:8099]"
+#ingress: true
 #ingress_port: 5173
 services:
   - "mqtt:want"
