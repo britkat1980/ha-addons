@@ -1,13 +1,12 @@
 name:  "GivTCP"
 description:  "TCP Modbus connection to MQTT/JSON for Givenergy Battery/PV Invertors"
-version:  "2.3.3"
+version:  "2.4.0"
 image: britkat/giv_tcp-ma
 slug:  "givtcp"
 homeassistant_api: true
 hassio_api: true
 init:  true
 #ingress: true
-#ingress_port: 5173
 services:
   - "mqtt:want"
 map:
