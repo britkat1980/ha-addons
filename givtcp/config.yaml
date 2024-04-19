@@ -139,7 +139,6 @@ schema:
   TZ: str
   WEB_DASH: bool
   WEB_DASH_PORT: int
-  HOSTIP: str
   CACHELOCATION: "str?"
   DATASMOOTHER: "str?"
   SMARTTARGET: bool
