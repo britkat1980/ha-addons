@@ -104,14 +104,14 @@ configuration:
     name: Output Raw Register Values
     description: >-
       (Optional) If enabled the raw register values will be returned alongside the normal data
-  SELF_RUN:
-    name: Self Run
-    description: >-
-      When enabled, GivTCP will automatically connect to the inverter and obtain data in a continuous loop. You probably want to leave this enabled!
   SELF_RUN_LOOP_TIMER:
     name: Self Run Loop Timer
     description: >-
-      How often should GivTCP connect to the inverter to check for data when self run is enabled? Default is 5, measured in seconds.
+      How often should GivTCP connect to the inverter to check for frequently changing data when self run is enabled? Default is 30, measured in seconds.
+  SELF_RUN_LOOP_TIMER_FULL:
+    name: Self Run Loop Timer FULL
+    description: >-
+      How often should GivTCP connect to the inverter to check for infrequent data when self run is enabled? Default is 120, measured in seconds.
   QUEUE_RETRIES:
     name: Queue Retries
     description: >-
