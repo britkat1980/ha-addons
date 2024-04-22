@@ -1,0 +1,32 @@
+name:  "GivTCP-DEV"
+description:  "TCP Modbus connection to MQTT/JSON for Givenergy Battery/PV Invertors"
+version:  "2.3.109"
+image: britkat/giv_tcp-dev
+slug:  "givtcp-dev"
+homeassistant_api: true
+hassio_api: true
+init:  true
+#ingress: true
+#ingress_port: 5173
+services:
+  - "mqtt:want"
+map:
+  - config:rw
+boot:  auto
+url:  https://github.com/britkat1980/giv_tcp
+legacy:  true
+arch: 
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+host_network: true
+options:
+  NUMINVERTORS: 1
+  PYTHONPATH: "/app"  
+  TZ: "Europe/London"
+schema: 
+  NUMINVERTORS: int
+  PYTHONPATH: str
+  TZ: str
