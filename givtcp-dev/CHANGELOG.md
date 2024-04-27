@@ -8,6 +8,8 @@ Beta branch should be safe for keen users to try new features, but is not guarra
 
 ## [2.4.153] - 2024-04-27
 
+Multi inverter set-ups currently unstable. Feedback needed.
+
 ### Added
 - Uses new async library for more reliable modbus comms
 - Auto retries 5 time for every command
