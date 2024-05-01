@@ -6,6 +6,12 @@ Dev branch should be used with extreme caution, mostly broken builds of WIP
 
 Beta branch should be safe for keen users to try new features, but is not guarranteed to work.
 
+## [2.4.195] - 2024-05-01
+
+### Fixed
+- fixed compatability with "old firmware" models
+- auto update cache after write (for REST/predbat)
+
 ## [2.4.193] - 2024-05-01
 
 Multi inverter set-ups currently unstable. Feedback needed.
