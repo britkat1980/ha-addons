@@ -6,6 +6,14 @@ Dev branch should be used with extreme caution, mostly broken builds of WIP
 
 Beta branch should be safe for keen users to try new features, but is not guarranteed to work.
 
+## [2.4.252] - 2024-05-14
+
+### Fixed
+- Spelling change on RAW output
+
+### Added
+- Battery Calibration control
+
 ## [2.4.248] - 2024-05-05
 
 Note that there is a new GivTCP Stats device created where things like Last Updated Time and other stats appear, should be same identity ID in HA
