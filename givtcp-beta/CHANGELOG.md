@@ -9,6 +9,14 @@ Beta branch should be safe for keen users to try new features, but is not guarra
 ## [2.4.252] - 2024-05-14
 
 ### Fixed
+- Corrected Energy scaling factor for Three Phase inverters
+
+### Added
+- Direct Meter data in "raw" output on MQTT
+
+## [2.4.252] - 2024-05-14
+
+### Fixed
 - Spelling change on RAW output
 
 ### Added
