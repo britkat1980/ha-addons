@@ -6,6 +6,14 @@ Dev branch should be used with extreme caution, mostly broken builds of WIP
 
 Beta branch should be safe for keen users to try new features, but is not guarranteed to work.
 
+## [2.4.265] - 2024-05-14
+
+### Fixed
+- Corrected Gateway and HV battery software version
+
+### Added
+- Ability to retrieve meter data, as polled by the portal. Provides 5min interval data (in "raw" mqtt output). Specifically useful for those with additional meters for heat pumps etc... 
+
 ## [2.4.252] - 2024-05-14
 
 ### Fixed
