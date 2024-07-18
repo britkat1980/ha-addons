@@ -1,6 +1,6 @@
 name:  "GivTCP-DEV"
 description:  "TCP Modbus connection to MQTT/REST for Givenergy Battery/PV Invertors"
-version:  "2.4.466"
+version:  "2.4.467"
 image: britkat/giv_tcp-dev
 slug:  "givtcp-dev"
 homeassistant_api: true
