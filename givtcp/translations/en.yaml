@@ -139,11 +139,11 @@ configuration:
   DAYRATESTART:
     name: Day Rate Start Time
     description: >-
-      What time does your day (peak) rate energy tariff start? (Default is 00:30)
+      What time does your day (peak) rate energy tariff start? (Default is 04:30)
   NIGHTRATESTART:
     name: Night Rate Start Time
     description: >-
-      What time does your night (off-peak) rate energy tariff start? (Default is 04:30)
+      What time does your night (off-peak) rate energy tariff start? (Default is 00:30)
   INFLUX_OUTPUT:
     name: InfluxDB Output
     description: >-
