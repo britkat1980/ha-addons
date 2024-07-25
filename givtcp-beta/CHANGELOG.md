@@ -6,7 +6,7 @@ Dev branch should be used with extreme caution, mostly broken builds of WIP
 
 Beta branch should be safe for keen users to try new features, but is not guarranteed to work.
 
-## [2.4.513] - 2024-05-14
+## [2.4.544] - 2024-05-14
 ### Fixed
 - improved REST responses
 - ignore blank IP addresses in HostIP
