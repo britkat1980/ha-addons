@@ -6,6 +6,10 @@ Dev branch should be used with extreme caution, mostly broken builds of WIP
 
 Beta branch should be safe for keen users to try new features, but is not guarranteed to work.
 
+## [2.4.589] - 2024-07-30
+### Fixed
+- NUMINVERTERS type eror
+
 ## [2.4.588] - 2024-07-30
 ### Fixed
 - Improved auto discovery for EVC
