@@ -6,9 +6,15 @@ Dev branch should be used with extreme caution, mostly broken builds of WIP
 
 Beta branch should be safe for keen users to try new features, but is not guarranteed to work.
 
+## [2.4.611] - 2024-08-01
+### Fixed
+- MQTT connection instability
+- Three phase read keyerror
+- EVC importcap running only when charging
+
 ## [2.4.589] - 2024-07-30
 ### Fixed
-- NUMINVERTERS type eror
+- NUMINVERTERS type error
 
 ## [2.4.588] - 2024-07-30
 ### Fixed
