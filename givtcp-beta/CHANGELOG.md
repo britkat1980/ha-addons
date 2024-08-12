@@ -6,7 +6,7 @@ Dev branch should be used with extreme caution, mostly broken builds of WIP
 
 Beta branch should be safe for keen users to try new features, but is not guarranteed to work.
 
-## [2.4.641] - 2024-08-01
+## [2.4.642] - 2024-08-01
 ### Fixed
 - Self_run loop restart fixed with longer timeout before restart
 
