@@ -8,6 +8,10 @@ Beta branch should be safe for keen users to try new features, but is not guarra
 
 ## [2.4.642] - 2024-08-01
 ### Fixed
+- Three phase timeslots and charge targets refactored
+
+## [2.4.642] - 2024-08-01
+### Fixed
 - Self_run loop restart fixed with longer timeout before restart
 
 ## [2.4.614] - 2024-08-01
