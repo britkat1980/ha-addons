@@ -6,7 +6,7 @@ Dev branch should be used with extreme caution, mostly broken builds of WIP
 
 Beta branch should be safe for keen users to try new features, but is not guarranteed to work.
 
-## [2.4.650] - 2024-08-01
+## [2.4.651] - 2024-08-01
 ### Fixed
 - ForceCharge and ForceExport now us the refactored threephase control
 
