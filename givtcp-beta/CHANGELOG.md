@@ -6,6 +6,12 @@ Dev branch should be used with extreme caution, mostly broken builds of WIP
 
 Beta branch should be safe for keen users to try new features, but is not guarranteed to work.
 
+## [2.4.663] - 2024-08-01
+### Fixed
+- ForceCharge fix for Three Phase and error stuck on Eco(Paused)
+### Added
+- Force Charge, Force Discharge and AC Enable controls added for Three Phase
+
 ## [2.4.652] - 2024-08-01
 ### Fixed
 - ForceCharge and ForceExport now us the refactored threephase control
