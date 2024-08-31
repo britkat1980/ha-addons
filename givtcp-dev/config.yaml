@@ -1,7 +1,8 @@
 name:  "GivTCP-DEV"
 description:  "TCP Modbus connection to MQTT/REST for Givenergy Battery/PV Invertors"
-version:  "2.4.736"
-image: britkat/giv_tcp-dev
+version:  "2.4.737"
+#image: britkat/giv_tcp-dev
+image: givtcp.docker.scarf.sh/britkat/giv_tcp-dev
 slug:  "givtcp-dev"
 homeassistant_api: true
 hassio_api: true
