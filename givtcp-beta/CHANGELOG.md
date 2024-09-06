@@ -6,6 +6,10 @@ Dev branch should be used with extreme caution, mostly broken builds of WIP
 
 Beta branch should be safe for keen users to try new features, but is not guarranteed to work.
 
+## [3.0.0.c] - 2024-08-01
+### Fixed
+- Three Phase Charge Schedules
+
 ## [3.0.0.b] - 2024-08-01
 ### Fixed
 - setChargeSlot type error fixed
