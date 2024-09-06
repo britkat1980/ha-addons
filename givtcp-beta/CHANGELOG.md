@@ -6,6 +6,16 @@ Dev branch should be used with extreme caution, mostly broken builds of WIP
 
 Beta branch should be safe for keen users to try new features, but is not guarranteed to work.
 
+## [3.0.0.b] - 2024-08-01
+### Fixed
+- setChargeSlot type error fixed
+- Single Gateway/AIO SOC error fixed
+
+## [3.0.0.a] - 2024-08-01
+### Added
+- Final v3 Beta
+
+
 ## [2.4.663] - 2024-08-01
 ### Fixed
 - ForceCharge fix for Three Phase and error stuck on Eco(Paused)

@@ -1,6 +1,6 @@
 
 # Change Log
-Version 3 of GivTCP is a substantial re-write with increased compatability for GivEnergy Devices and a more robust modbus layer communication
+Version 3 of GivTCP is a substantial re-write with increased compatability for GivEnergy Devices and more robust modbus communication
 
 ## [3.0.0] - 2024-08-24
 ### Added
@@ -13,4 +13,4 @@ Version 3 of GivTCP is a substantial re-write with increased compatability for G
 - Full HV battery stack compatability
 - Long-lived network connections for modbus and MQTT for greater stability
 - Auto update of device IP address, incase your inverter is not on a static IP
-- umerous under the hood tweaks for faster and more reliable control response times.
+- Numerous under the hood tweaks for faster and more reliable control response times.
