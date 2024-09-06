@@ -1,5 +1,8 @@
 
 # Change Log
+
+=========== COMING SOON ==========
+
 Version 3 of GivTCP is a substantial re-write with increased compatability for GivEnergy Devices and more robust modbus communication
 
 ## [3.0.0] - 2024-08-24
