@@ -6,6 +6,11 @@ Dev branch should be used with extreme caution, mostly broken builds of WIP
 
 Beta branch should be safe for keen users to try new features, but is not guarranteed to work.
 
+## [3.0.0.d] - 2024-09-07
+### Fixed
+- Single AIO SOC error
+- Gateway Battery Power
+
 ## [3.0.0.c] - 2024-08-01
 ### Fixed
 - Three Phase Charge Schedules
