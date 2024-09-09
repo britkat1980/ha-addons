@@ -6,6 +6,11 @@ Dev branch should be used with extreme caution, mostly broken builds of WIP
 
 Beta branch should be safe for keen users to try new features, but is not guarranteed to work.
 
+## [3.0.0e] - 2024-09-09
+### Fixed
+- 0% SOC drops
+- Midnight Energy Errors
+
 ## [3.0.0.d] - 2024-09-07
 ### Fixed
 - Single AIO SOC error
