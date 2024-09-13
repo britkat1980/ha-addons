@@ -6,6 +6,11 @@ Dev branch should be used with extreme caution, mostly broken builds of WIP
 
 Beta branch should be safe for keen users to try new features, but is not guarranteed to work.
 
+## [3.0.0h] - 2024-09-13
+### Fixed
+- Fixed EVC discovery error
+- Improved v2 upgrade logic
+
 ## [3.0.0g] - 2024-09-12
 ### Fixed
 - Today Energy not resetting at midnight
