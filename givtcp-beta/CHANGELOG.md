@@ -6,6 +6,10 @@ Dev branch should be used with extreme caution, mostly broken builds of WIP
 
 Beta branch should be safe for keen users to try new features, but is not guarranteed to work.
 
+## [3.0.0i] - 2024-09-14
+### Fixed
+- Fix for sporadic Battery Key error
+
 ## [3.0.0h] - 2024-09-13
 ### Fixed
 - Fixed EVC discovery error
