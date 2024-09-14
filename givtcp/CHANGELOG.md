@@ -1,12 +1,6 @@
 
 # Change Log
 
-## [2.4.8] - 2024-09-09
-### Fixed
-- Pre v3 release, will store v2 settings locally for use with v3 upgrade
-
-# =========== COMING SOON ==========
-
 Version 3 of GivTCP is a substantial re-write with increased compatability for GivEnergy Devices and more robust modbus communication
 
 ## [3.0.0] - 2024-08-24
