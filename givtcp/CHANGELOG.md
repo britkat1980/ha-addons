@@ -3,7 +3,15 @@
 
 Version 3 of GivTCP is a substantial re-write with increased compatability for GivEnergy Devices and more robust modbus communication
 
-## [3.0.0] - 2024-08-24
+## [3.0.7] - 2024-09-18
+### Fixed
+- Missing HostIP gracefully handled and added as config option
+- Turned off EVC by default
+- removed datasmoothing from battery data to stop "sticky data"
+- Gateway eco-mode and battery calibration conrol fixed
+
+
+## [3.0.0] - 2024-09-14
 ### Added
 - New asynchronus library providing more robust communicaition
 - Compatability with ALL Givenergy device types inc: Three Phase, EMS and Gateway
