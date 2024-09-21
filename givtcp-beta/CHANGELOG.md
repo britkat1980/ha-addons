@@ -6,6 +6,13 @@ Dev branch should be used with extreme caution, mostly broken builds of WIP
 
 Beta branch should be safe for keen users to try new features, but is not guarranteed to work.
 
+## [3.0.1] - 2024-09-18
+### Fixed
+- Missing HostIP gracefully handled and added as config option
+- Turned off EVC by default
+- removed datasmoothing from battery data to stop "sticky data"
+- Gateway eco-mode and battery calibration control fixed
+
 ## [3.0.0i] - 2024-09-14
 ### Fixed
 - Fix for sporadic Battery Key error

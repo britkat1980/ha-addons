@@ -3,7 +3,7 @@
 
 Version 3 of GivTCP is a substantial re-write with increased compatability for GivEnergy Devices and more robust modbus communication
 
-## [3.0.7] - 2024-09-18
+## [3.0.1] - 2024-09-18
 ### Fixed
 - Missing HostIP gracefully handled and added as config option
 - Turned off EVC by default
