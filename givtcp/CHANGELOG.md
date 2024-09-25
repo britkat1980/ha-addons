@@ -7,8 +7,11 @@ Version 3 of GivTCP is a substantial re-write with increased compatability for G
 ### Fixed
 - Missing HostIP gracefully handled and added as config option
 - Turned off EVC by default
-- removed datasmoothing from battery data to stop "sticky data"
-- Gateway eco-mode and battery calibration conrol fixed
+- Removed datasmoothing from battery data to stop "sticky data"
+- Gateway eco-mode and battery calibration control fixed
+- FindInverter updated to account for /23 subnet mask
+- stability updates for switch devices
+- Improved upgrade logic to remove old MQTT discovery topics
 
 
 ## [3.0.0] - 2024-09-14
