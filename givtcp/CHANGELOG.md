@@ -3,7 +3,7 @@
 
 Version 3 of GivTCP is a substantial re-write with increased compatability for GivEnergy Devices and more robust modbus communication
 
-## [3.0.1] - 2024-09-18
+## [3.0.1] - 2024-09-25
 ### Fixed
 - Missing HostIP gracefully handled and added as config option
 - Turned off EVC by default
@@ -12,6 +12,7 @@ Version 3 of GivTCP is a substantial re-write with increased compatability for G
 - FindInverter updated to account for /23 subnet mask
 - stability updates for switch devices
 - Improved upgrade logic to remove old MQTT discovery topics
+- Updated base image to Alpine 3.19 and Python 3.12.6
 
 
 ## [3.0.0] - 2024-09-14
