@@ -6,6 +6,22 @@ Dev branch should be used with extreme caution, mostly broken builds of WIP
 
 Beta branch should be safe for keen users to try new features, but is not guarranteed to work.
 
+## [3.0.6] - 2024-10-22
+### Breaking Change
+- Ability to run EVC standalone (now uses "givevc" prefix), so entity ids have changed
+
+### Fixed
+- Data smoothing re-implemented for key Data (Recommeded to be set to Low)
+- Bad data rejection, for more stable data reads
+- Rapid control command stability
+- REST errors due to poor chachelock implementation
+- Cachelock stuck error
+- Influx "None" error
+
+### Added
+- Removed Node from runtime for smaller image size (Thanks Will Holley)
+- Config GUI runs independent of inverters so always available
+
 ## [3.0.1] - 2024-09-18
 ### Fixed
 - Missing HostIP gracefully handled and added as config option
