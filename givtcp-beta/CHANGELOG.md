@@ -6,7 +6,7 @@ Dev branch should be used with extreme caution, mostly broken builds of WIP
 
 Beta branch should be safe for keen users to try new features, but is not guarranteed to work.
 
-## [3.0.6] - 2024-10-22
+## [3.0.4] - 2024-10-22
 ### Breaking Change
 - Ability to run EVC standalone (now uses "givevc" prefix), so entity ids have changed
 - Logs moved to sub-folder
