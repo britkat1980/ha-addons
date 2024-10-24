@@ -3,6 +3,24 @@
 
 Version 3 of GivTCP is a substantial re-write with increased compatability for GivEnergy Devices and more robust modbus communication
 
+## [3.0.4] - 2024-10-24
+### Breaking Change
+- Ability to run EVC standalone (now uses "givevc" prefix), so entity ids have changed
+- Logs moved to sub-folder
+
+### Fixed
+- Data smoothing re-implemented for key Data (Recommeded to be set to Low)
+- Bad data rejection, for more stable data reads
+- Rapid control command stability
+- REST errors due to poor chachelock implementation
+- Cachelock stuck error
+- Influx "None" error
+- Auto discovery works with subnets bigger than /24
+
+### Added
+- Removed Node from runtime for smaller image size (Thanks Will Holley)
+- Config GUI runs independent of inverters so always available
+
 ## [3.0.3] - 2024-09-25
 ### Fixed
 - Startup error when reported network is blank
