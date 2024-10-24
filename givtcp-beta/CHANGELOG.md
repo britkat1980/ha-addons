@@ -9,6 +9,7 @@ Beta branch should be safe for keen users to try new features, but is not guarra
 ## [3.0.6] - 2024-10-22
 ### Breaking Change
 - Ability to run EVC standalone (now uses "givevc" prefix), so entity ids have changed
+- Logs moved to sub-folder
 
 ### Fixed
 - Data smoothing re-implemented for key Data (Recommeded to be set to Low)
@@ -17,6 +18,7 @@ Beta branch should be safe for keen users to try new features, but is not guarra
 - REST errors due to poor chachelock implementation
 - Cachelock stuck error
 - Influx "None" error
+- Auto discovery works with subnets bigger than /24
 
 ### Added
 - Removed Node from runtime for smaller image size (Thanks Will Holley)
