@@ -126,9 +126,12 @@ The web dashboard is able to summarise data for a single inverter, or multiple i
 
 ## GivEnergy Electric Vehicle Charger (GivEVC)
 
-GivTCP incorporates control and monitoring of the GE charger. Connecting via local modbus it can monitor real-time stats and provide simple control features. With the EVC cloud conrol does not use the modbus protocol, so there is minimal opportunity for changes to reflect in the official app/cloud portal. Particularly the Charging modes, which are merely mimiced in GivEVC.
+GivTCP incorporates control and monitoring of the GE charger. Connecting via local modbus it can monitor real-time stats and provide simple control features. With the EVC cloud control does not use the modbus protocol, so there is minimal opportunity for changes to reflect in the official app/cloud portal. Particularly the Charging modes, which are merely mimiced in GivEVC.
 
-NOTE - there is currently a firmware bug with the GivEVC where the Modbus port only available on WiFi. Therefore if your EVC is connected via ethernet is will be necessary to disconnect and re-connect via WiFi to recieve data via GivTCP.
+NOTES:
+
+- there is currently a firmware bug with the GivEVC where the Modbus port only available on WiFi. Therefore if your EVC is connected via ethernet is will be necessary to disconnect and re-connect via WiFi to recieve data via GivTCP;
+- you will need to enable "local control" on the charger in the GivEnergy portal to enable GivTCP to connect to the GivEVC.
 
 ### Configuration
 
