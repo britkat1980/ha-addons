@@ -6,7 +6,7 @@ Dev branch should be used with extreme caution, mostly broken builds of WIP
 
 Beta branch should be safe for keen users to try new features, but is not guarranteed to work.
 
-## [3.0.4] - 2025-02-10
+## [3.1.1] - 2025-02-10
 ### Fixed
 - Three Phase control improvements (thanks to GE for access to test kit)
 - Inverter and Battery Max Power values corrected to all device types
