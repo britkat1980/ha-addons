@@ -6,6 +6,25 @@ Dev branch should be used with extreme caution, mostly broken builds of WIP
 
 Beta branch should be safe for keen users to try new features, but is not guarranteed to work.
 
+## [3.0.4] - 2025-02-10
+### Fixed
+- Three Phase control improvements (thanks to GE for access to test kit)
+- Inverter and Battery Max Power values corrected to all device types
+- Updated RQ lib and associated code
+- Improved auto discovery for non-standard subnet masks
+- BCU temperature reporting for HV batteries
+- Improved Battery (Dis)charge Rate tracking for inverters with % value only
+- Removal of spurious data due to corrupt reads
+
+
+### Added
+- Added "Write Count" sesnor to track the daily number of register writes issued by GivTCP. This will be used in future to rate limit writes to "non write-safe" registers
+- Charge Rate AC register control via REST
+- Additional device type compatability in underlying library (future use)
+- Prep for PV only inverters
+
+
+
 ## [3.0.4] - 2024-10-22
 ### Breaking Change
 - Ability to run EVC standalone (now uses "givevc" prefix), so entity ids have changed
