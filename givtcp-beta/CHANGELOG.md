@@ -6,6 +6,19 @@ Dev branch should be used with extreme caution, mostly broken builds of WIP
 
 Beta branch should be safe for keen users to try new features, but is not guarranteed to work.
 
+## [3.1.2] - 2025-03-03
+### Breaking Change
+- Force Export now uses Discharge slot 1 to align with RTC control
+- Locked down REST access to local network to enhance security
+
+### Added
+- RTC control for both Single and Three phase units
+- Safe and "non-safe" write counts provided
+
+### Fixed
+- setExportTarget for EMS fixed type error
+- EVC discovery index error
+
 ## [3.1.1] - 2025-02-10
 ### Fixed
 - Three Phase control improvements (thanks to GE for access to test kit)
