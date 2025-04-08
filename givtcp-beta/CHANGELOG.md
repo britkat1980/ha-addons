@@ -6,6 +6,10 @@ Dev branch should be used with extreme caution, mostly broken builds of WIP
 
 Beta branch should be safe for keen users to try new features, but is not guarranteed to work.
 
+## [3.1.2] - 2025-04-08
+### Fixed
+- Improved Subnet scanning thanks to @s0ckhamster
+
 ## [3.1.2] - 2025-03-03
 ### Breaking Change
 - Force Export now uses Discharge slot 1 to align with RTC control
