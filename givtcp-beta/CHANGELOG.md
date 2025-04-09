@@ -6,7 +6,7 @@ Dev branch should be used with extreme caution, mostly broken builds of WIP
 
 Beta branch should be safe for keen users to try new features, but is not guarranteed to work.
 
-## [3.1.2] - 2025-04-08
+## [3.1.3] - 2025-04-08
 ### Fixed
 - Improved Subnet scanning thanks to @s0ckhamster
 

@@ -3,6 +3,34 @@
 
 Version 3 of GivTCP is a substantial re-write with increased compatability for GivEnergy Devices and more robust modbus communication
 
+## [3.1.3] - 2025-04-09
+
+### Breaking Change
+- Force Export now uses Discharge slot 1 to align with RTC control
+- Locked down REST access to local network to enhance security
+- Reboot and restart switches are now Buttons so have new device type
+
+### Added
+- RTC control for both Single and Three phase units
+- Safe and "non-safe" write counts provided
+- Added "Write Count" sesnor to track the daily number of register writes issued by GivTCP. This will be used in future to rate limit writes to "non write-safe" registers
+- Charge Rate AC register control via REST
+- Additional device type compatability in underlying library (future use)
+- Prep for PV only inverters
+
+### Fixed
+- setExportTarget for EMS fixed type error
+- Midnight Energy Dashboard data spike corrected
+- EVC discovery index error
+- Improved Subnet scanning thanks to @s0ckhamster
+- Three Phase control improvements (thanks to GE for access to test kit)
+- Inverter and Battery Max Power values corrected to all device types
+- Updated RQ lib and associated code
+- Improved auto discovery for non-standard subnet masks
+- BCU temperature reporting for HV batteries
+- Improved Battery (Dis)charge Rate tracking for inverters with % value only
+- Removal of spurious data due to corrupt reads
+
 ## [3.0.4] - 2024-10-24
 ### Breaking Change
 - Ability to run EVC standalone (now uses "givevc" prefix), so entity ids have changed
