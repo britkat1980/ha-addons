@@ -6,6 +6,13 @@ Dev branch should be used with extreme caution, mostly broken builds of WIP
 
 Beta branch should be safe for keen users to try new features, but is not guarranteed to work.
 
+## [3.1.4] - 2025-04-09
+### Breaking Change
+- Battery Calibration is now split into two entities, one sensor for status plus a switch to turn on or off calibration. This fixes the issue on failing to start GivTCP during a calibration
+
+### Fixed
+- Single AIO Gateway error. Includes log line to recommend turning off Gateway in config for a single Gateway/AIO system
+
 ## [3.1.3] - 2025-04-08
 ### Fixed
 - Improved Subnet scanning thanks to @s0ckhamster

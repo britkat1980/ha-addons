@@ -4,7 +4,6 @@
 Version 3 of GivTCP is a substantial re-write with increased compatability for GivEnergy Devices and more robust modbus communication
 
 ## [3.1.3] - 2025-04-09
-
 ### Breaking Change
 - Force Export now uses Discharge slot 1 to align with RTC control
 - Locked down REST access to local network to enhance security
