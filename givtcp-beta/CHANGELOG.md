@@ -8,6 +8,13 @@ Beta branch should be safe for keen users to try new features, but is not guarra
 
 ## [3.1.4] - 2025-04-09
 ### Breaking Change
+- Reverting Battery Calibration to Select control, but retaining seperate sensor 
+
+### Added
+- Updated Web Dashboard to latest version (Thanks @DanGallo)
+
+## [3.1.4] - 2025-04-09
+### Breaking Change
 - Battery Calibration is now split into two entities, one sensor for status plus a switch to turn on or off calibration. This fixes the issue on failing to start GivTCP during a calibration
 
 ### Fixed
