@@ -6,6 +6,16 @@ Dev branch should be used with extreme caution, mostly broken builds of WIP
 
 Beta branch should be safe for keen users to try new features, but is not guarranteed to work.
 
+## [3.1.5] - 2025-04-09
+### Fixed
+- Solarmode for EVC
+- RTC control staus stability fix
+- Refatored inverter Model to include new/upcoming models
+
+### Added
+- Web Dashboard updated
+- Meter Data now available for up to 8 meters (subject to firmware availability)
+
 ## [3.1.4] - 2025-04-09
 ### Breaking Change
 - Reverting Battery Calibration to Select control, but retaining seperate sensor 
