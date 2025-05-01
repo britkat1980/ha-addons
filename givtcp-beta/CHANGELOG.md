@@ -6,7 +6,7 @@ Dev branch should be used with extreme caution, mostly broken builds of WIP
 
 Beta branch should be safe for keen users to try new features, but is not guarranteed to work.
 
-## [3.1.5] - 2025-04-09
+## [3.1.7] - 2025-04-09
 ### Fixed
 - Solarmode for EVC
 - RTC control staus stability fix
