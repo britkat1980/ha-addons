@@ -3,6 +3,16 @@
 
 Version 3 of GivTCP is a substantial re-write with increased compatability for GivEnergy Devices and more robust modbus communication
 
+## [3.2] - 2025-08-26
+### Fixed
+- Solarmode for EVC
+- RTC control stauts stability fix
+- Refactored inverter Model to include new/upcoming models
+
+### Added
+- Web Dashboard updated
+- Meter Data now available for up to 8 meters (subject to firmware availability)
+
 ## [3.1.6] - 2025-04-13
 ### Breaking Change
 - Battery Calibration is now split into two entities, one sensor for status plus a select control to control calibration modes. This fixes the issue on failing to start GivTCP during a calibration
