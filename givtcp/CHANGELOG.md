@@ -3,6 +3,13 @@
 
 Version 3 of GivTCP is a substantial re-write with increased compatability for GivEnergy Devices and more robust modbus communication
 
+## [3.3] - 2025-10-20
+### Fixed
+- Improved connection handling to remove timeout errors
+- Addition of Gen4 and Gen3+ model types
+- refined start-up inverter discovery
+
+
 ## [3.2] - 2025-08-26
 ### Fixed
 - Solarmode for EVC
