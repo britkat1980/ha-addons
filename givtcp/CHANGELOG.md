@@ -8,6 +8,7 @@ Version 3 of GivTCP is a substantial re-write with increased compatability for G
 - Improved connection handling to remove timeout errors
 - Addition of Gen4 and Gen3+ model types
 - refined start-up inverter discovery
+- RTC state error
 
 
 ## [3.2] - 2025-08-26
