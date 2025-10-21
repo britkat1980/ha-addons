@@ -6,6 +6,15 @@ Dev branch should be used with extreme caution, mostly broken builds of WIP
 
 Beta branch should be safe for keen users to try new features, but is not guarranteed to work.
 
+## [3.3.15] - 2025-10-21
+### Fixed
+- Improved connection handling to remove timeout errors
+- Addition of Gen4 and Gen3+ model types
+- Hybrid HV Gen3 compatability
+- Load Energy Today data stability
+- refined start-up inverter discovery
+- RTC state error
+
 ## [3.1.8] - 2025-05-02
 ### Fixed
 - Solarmode for EVC
