@@ -3,6 +3,11 @@
 
 Version 3 of GivTCP is a substantial re-write with increased compatability for GivEnergy Devices and more robust modbus communication
 
+## [3.4] - 2025-10-22
+### Fixed
+- Rolled back mqtt discovery fix for object_id to resolve "unnamed_device"
+- Fix for missing unit_of_measurement for battery capacity
+
 ## [3.3] - 2025-10-20
 ### Fixed
 - Improved connection handling to remove timeout errors
