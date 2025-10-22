@@ -6,7 +6,7 @@ Version 3 of GivTCP is a substantial re-write with increased compatability for G
 ## [3.4] - 2025-10-22
 ### Fixed
 - Rolled back mqtt discovery fix for object_id to resolve "unnamed_device"
-- Fix for missing unit_of_measurement for battery capacity
+- Fix for missing unit_of_measurement for battery capacity- Fix for isoformat error associated with REST calls
 
 ## [3.3] - 2025-10-20
 ### Fixed
