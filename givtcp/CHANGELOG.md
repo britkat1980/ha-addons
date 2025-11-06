@@ -3,6 +3,14 @@
 
 Version 3 of GivTCP is a substantial re-write with increased compatability for GivEnergy Devices and more robust modbus communication
 
+## [3.5] - 2025-10-22
+### Fixed
+- Mqtt discovery fix for object_id to use new default_entity_id
+- improved error handling for timeslots with minute value of 60 instead of 0
+- improved modbus connection handling
+- Load Energy resets at Midnight now stable
+
+
 ## [3.4.1] - 2025-10-22
 ### Fixed
 - state_class errors for some entities
