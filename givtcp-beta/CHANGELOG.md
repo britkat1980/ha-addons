@@ -63,7 +63,7 @@ Major change is migration to the published v2 (2.13.0) givenergy-modbus library 
 - Force Charge, Force Export and Temp Pause failed on models whose data didn't include the settings they save for reverting (three-phase battery reserve, EMS charge rate).
 - A control that isn't available on your inverter model now says so ("not available for Ems inverters"), rather than giving an `AttributeError`. This covers, for example, three-phase-only controls on single-phase inverters, inverter controls on the EMS, and Force Charge/Export on the EMS.
 - A control sent at the same moment as the read loop checked for requests could be lost, along with any other pending requests.
-- **Leftover pause entities on older inverters.** Battery Pause Mode and the pause timeslots are now removed from Home Assistant on inverters that don't support them (Gen 1 hybrid, AC).
+- **Leftover pause entities on older inverters.** Battery Pause Mode and the pause timeslots are now removed from Home Assistant on inverters that don't support them (Gen 1 hybrid & AC on old f/w).
 - Gen 1 Home Assistant discovery failed on the battery BMS current entity, so no entities were created.
 - **Export Power Limit** now shows in Watts in HA, instead of as an amp slider.
 - **Battery pause slot changes** now show in HA immediately, instead of after the next full read.
