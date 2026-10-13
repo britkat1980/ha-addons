@@ -3,6 +3,13 @@
 
 Version 3 of GivTCP is a substantial re-write with increased compatability for GivEnergy Devices and more robust modbus communication
 
+## [3.6.6] - 2026-10-13
+
+Changes since 3.6.5.
+
+### Fixed
+- **Hybrid Gen 1 and All in One-HY: Battery Charge Rate AC and Battery Discharge Rate AC missing, or couldn't be set** ("NotImplementedError: Setting the AC discharge rate is not yet supported", #645, thanks @mimikm). 3.5 read and wrote these (HR 313/314) on every hybrid that answered them, but the new Modbus library only does on AC and All-in-One models, so the entities weren't created and setting them failed. GivTCP now reads and writes them again on the Gen 1, Gen 3 and All in One-HY. The Hybrid Gen 3, which could already set them since 3.6.4, now also shows the inverter's current values. If an inverter doesn't answer the read, GivTCP stops trying after 3 attempts and logs a warning, and the rates can still be set.
+
 ## [3.6.5] - 2026-10-13
 
 Changes since 3.6.4.
