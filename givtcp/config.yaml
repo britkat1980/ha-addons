@@ -1,6 +1,6 @@
 name:  "GivTCP"
 description:  "TCP Modbus connection to MQTT/REST for Givenergy Battery/PV Invertors"
-version:  "3.6.8"
+version:  "3.6.9"
 image: givtcp.docker.scarf.sh/britkat/giv_tcp-ma
 slug:  "givtcp"
 homeassistant_api: true
@@ -10,7 +10,10 @@ ingress: true
 services:
   - "mqtt:want"
 map:
-  - config:rw
+  # Home Assistant's config folder, at /config as before (the "config" map option is deprecated)
+  - type: homeassistant_config
+    read_only: false
+    path: /config
   - ssl
 boot:  auto
 url:  https://github.com/britkat1980/giv_tcp
